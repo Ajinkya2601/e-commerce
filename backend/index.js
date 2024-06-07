@@ -14,6 +14,7 @@ app.use(express.json()); // Call express.json() function
 app.use(express.urlencoded({ extended: true })); 
 app.use(cookieParser());
 console.log("hello")
+console.log("morning")
 app.use('/api/users',userRoutes)
    
 app.listen(port, () => {
